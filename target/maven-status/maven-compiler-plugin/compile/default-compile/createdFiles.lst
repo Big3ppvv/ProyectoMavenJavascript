@@ -1,0 +1,7 @@
+manuelbelgrano\jar\model\Usuario.class
+manuelbelgrano\jar\DemoApplication.class
+manuelbelgrano\jar\dao\UsuarioDaoImp.class
+manuelbelgrano\jar\controler\AuthController.class
+manuelbelgrano\jar\dao\UsuarioDao.class
+manuelbelgrano\jar\ServletInitializer.class
+manuelbelgrano\jar\controler\UsuarioController.class
