@@ -1,13 +1,12 @@
 package manuelbelgrano.jar.dao;
 
+import manuelbelgrano.jar.model.Usuario;
 import java.util.List;
 
-import jakarta.transaction.Transactional;
-import manuelbelgrano.jar.model.Usuarios;
-
-@Transactional
 public interface UsuarioDao {
-    
-    List<Usuarios> getUsuarios();
+    List<Usuario> getUsuarios();
+    void registrar(Usuario usuario);
+    boolean verificarCredenciales(String email, String password);
     void eliminar(Long id);
 }
+
